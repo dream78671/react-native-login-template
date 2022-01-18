@@ -46,6 +46,7 @@ class AcceptedLesson extends Component {
             "react-native-elements"
           </Text>
         </Card>
+        
 
                             </View>
 
