@@ -39,7 +39,7 @@ class MainPage extends Component {
     }}>
 
               <Button marginBottom="0%"
-        onPress={() =>   this.props.navigation.navigate('menu')  }
+        onPress={() =>   this.props.navigation.navigate('menu') }
     mode="important"
     uppercase={false}
 

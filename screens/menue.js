@@ -119,7 +119,7 @@ onPress={this.onPress}
       <TouchableOpacity  
 
 style={styles.pay}
-onPress={this.onPress}
+onPress={() =>   this.props.navigation.navigate('acceptedlesson') }
 >
 
 

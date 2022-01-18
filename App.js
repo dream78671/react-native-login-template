@@ -9,6 +9,7 @@ import MainPage  from '../jeffv2/screens/MainPage'
 
 import RegisterScreen  from './screens/RegisterScreen'
 import menue from './screens/menue'
+import AcceptedLesson from './screens/AcceptedLesson'
 
 
 const Stack = createStackNavigator()
@@ -29,6 +30,7 @@ export default function App() {
           <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
           <Stack.Screen name="Main" component={MainPage} />
           <Stack.Screen name="menu" component={menue} />
+          <Stack.Screen name="acceptedlesson" component={AcceptedLesson} />
 
 
         </Stack.Navigator>
